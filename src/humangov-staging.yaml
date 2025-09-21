@@ -15,7 +15,7 @@ spec:
       serviceAccountName: humangov-pod-execution-role
       containers:
       - name: humangov-python-app-staging
-        image: 897387179759.dkr.ecr.us-east-1.amazonaws.com/humangov-app # CONTAINER_IMAGE    #897387179759.dkr.ecr.us-east-1.amazonaws.com/humangov-app:latest
+        image: CONTAINER_IMAGE #897387179759.dkr.ecr.us-east-1.amazonaws.com/humangov-app # CONTAINER_IMAGE    #897387179759.dkr.ecr.us-east-1.amazonaws.com/humangov-app:latest
         env:
         - name: AWS_BUCKET
           value: "humangov-staging-s3-wsri"
